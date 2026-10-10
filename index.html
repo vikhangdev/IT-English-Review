@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Medical English · Ôn tập 8 Unit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="top">
+  <h1 id="home">💻 IT English <span style="font-weight:500;opacity:.9">· Ôn tập vui</span></h1>
+  <div class="crumbs" id="crumbs"></div><div class="hud" id="hud"></div>
+  <form class="lookup" id="lk"><input id="lkin" placeholder="Tra từ / cụm từ…" autocomplete="off"><button type="submit">🔎 Dịch</button></form>
+</header>
+<main id="app"></main>
+<div id="tip"></div>
+<canvas id="cf"></canvas>
+<div id="mascot"><div id="mBubble"></div><button id="mHide" title="Ẩn bạn trâu">✕</button>
+<div id="mBody"><svg viewBox="0 0 200 232" xmlns="http://www.w3.org/2000/svg" aria-label="Bạn trâu cổ vũ">
+<ellipse cx="100" cy="224" rx="56" ry="7" fill="rgba(0,0,0,.18)"/>
+<g class="m-bob">
+ <g class="m-tail"><path d="M146 166 C176 156 186 178 174 196" stroke="#6b5a4d" stroke-width="8" fill="none" stroke-linecap="round"/><ellipse cx="174" cy="199" rx="8" ry="10" fill="#3d322b"/></g>
+ <rect x="64" y="182" width="24" height="36" rx="11" fill="#7d6b5c"/><rect x="112" y="182" width="24" height="36" rx="11" fill="#7d6b5c"/>
+ <rect x="61" y="208" width="30" height="13" rx="6" fill="#3d322b"/><rect x="109" y="208" width="30" height="13" rx="6" fill="#3d322b"/>
+ <ellipse cx="100" cy="156" rx="60" ry="50" fill="#8d7b6b"/>
+ <ellipse cx="100" cy="170" rx="38" ry="32" fill="#d3c2ad"/>
+ <path d="M80 146 C72 182 128 182 120 146" stroke="#334155" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="100" cy="178" r="8" fill="#e2e8f0" stroke="#334155" stroke-width="3"/>
+ <path d="M64 70 C40 58 24 36 36 14 C36 36 52 50 72 58 Z" fill="#f6ecd2" stroke="#d6c398" stroke-width="2"/>
+ <path d="M136 70 C160 58 176 36 164 14 C164 36 148 50 128 58 Z" fill="#f6ecd2" stroke="#d6c398" stroke-width="2"/>
+ <ellipse cx="46" cy="92" rx="19" ry="11" transform="rotate(-18 46 92)" fill="#8d7b6b"/><ellipse cx="46" cy="92" rx="11" ry="6" transform="rotate(-18 46 92)" fill="#f9a8b8"/>
+ <ellipse cx="154" cy="92" rx="19" ry="11" transform="rotate(18 154 92)" fill="#8d7b6b"/><ellipse cx="154" cy="92" rx="11" ry="6" transform="rotate(18 154 92)" fill="#f9a8b8"/>
+ <ellipse cx="100" cy="98" rx="52" ry="46" fill="#9a8878"/>
+ <path d="M52 78 Q100 58 148 78 L148 90 Q100 70 52 90 Z" fill="#e63946"/>
+ <polygon points="100,60 104,70 114,70 106,76 109,86 100,80 91,86 94,76 86,70 96,70" fill="#fde047" stroke="#ca8a04" stroke-width="1"/>
+ <ellipse cx="100" cy="120" rx="32" ry="23" fill="#e0d2bf"/>
+ <ellipse cx="90" cy="118" rx="4.5" ry="6" fill="#6b5446"/><ellipse cx="110" cy="118" rx="4.5" ry="6" fill="#6b5446"/>
+ <g class="m-eye"><circle cx="78" cy="98" r="12" fill="#fff"/><circle cx="80" cy="99" r="7" fill="#2b211c"/><circle cx="82" cy="96" r="2.6" fill="#fff"/></g>
+ <g class="m-eye"><circle cx="122" cy="98" r="12" fill="#fff"/><circle cx="120" cy="99" r="7" fill="#2b211c"/><circle cx="122" cy="96" r="2.6" fill="#fff"/></g>
+ <circle cx="64" cy="114" r="7" fill="#f9a8a8" opacity=".65"/><circle cx="136" cy="114" r="7" fill="#f9a8a8" opacity=".65"/>
+ <path d="M86 130 Q100 142 114 130" stroke="#6b4a3a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+ <g class="m-armL"><line x1="58" y1="152" x2="26" y2="106" stroke="#8d7b6b" stroke-width="20" stroke-linecap="round"/><circle cx="22" cy="92" r="17" fill="#fde047"/><circle cx="13" cy="84" r="8" fill="#fb7185"/><circle cx="31" cy="84" r="8" fill="#38bdf8"/><circle cx="22" cy="78" r="8" fill="#a3e635"/><circle cx="22" cy="94" r="10" fill="#fbbf24"/></g>
+ <g class="m-armR"><line x1="142" y1="152" x2="174" y2="106" stroke="#8d7b6b" stroke-width="20" stroke-linecap="round"/><circle cx="178" cy="92" r="17" fill="#fde047"/><circle cx="169" cy="84" r="8" fill="#fb7185"/><circle cx="187" cy="84" r="8" fill="#38bdf8"/><circle cx="178" cy="78" r="8" fill="#a3e635"/><circle cx="178" cy="94" r="10" fill="#fbbf24"/></g>
+</g></svg></div></div>
+<button id="mShow" title="Gọi bạn trâu quay lại">🐃</button>
+<script src="script.js"></script>
+
+</body>
+</html>
